@@ -131,7 +131,7 @@ resource "aws_codebuild_project" "duner" {
 
     source {
         type                = "GITHUB"
-        location            = "https://github.com/stefobaev/firstDemo.git"
+        location            = "https://github.com/stefobaev/duner.git"
         git_clone_depth     = 1
 
         git_submodules_config {
