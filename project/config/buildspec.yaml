@@ -22,11 +22,11 @@ phases:
 
 build:
     commands:
-      - cd "${CODEBUILD_SRC_DIR}"/app
+      - cd "${CODEBUILD_SRC_DIR}/app"
       - export TAG="${CODEBUILD_RESOLVED_SOURCE_VERSION}-${ENV}"
       - make build
 
-      - cd ${CODEBUILD_SRC_DIR}
+      - cd "${CODEBUILD_SRC_DIR}/project"
       - terraform init
       - terraform plan -var="image_tag=${TAG}" -no-color -input=false -out plan.out
       - terraform apply -auto-approve -no-color -input=false plan.out
