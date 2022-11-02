@@ -7,9 +7,9 @@ variable "privateSubnet" {}
 variable "region" {}
 
 variable "awsacc" {
-    default = "089370973671"
+    default = ""
 }
 
 variable "token" {
-    default = "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"
+    default = ""
 }
