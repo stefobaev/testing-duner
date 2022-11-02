@@ -1,8 +1,8 @@
-resource "aws_ecr_repository" "awsEcr" {
-    name = "ecr"
+resource "aws_ecr_repository" "awsecr" {
+    name = "awsecr120860019576"
 
     tags = {
-        Name = "awsEcr"
+        Name = "awsecr120860019576"
     }
 }
 
