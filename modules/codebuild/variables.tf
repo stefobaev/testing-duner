@@ -11,9 +11,9 @@ variable "buildSpecFile" {
 }
 
 variable "awsacc" {
-    default = "089370973671"
+    default = ""
 }
 
 variable "token" {
-    default = "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"
+    default = ""
 }
