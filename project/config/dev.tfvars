@@ -1,5 +1,5 @@
 environment = "project"
-app_name = "firstDemo"
+app_name = "kebap"
 aws_profile = "default"
 aws_account = "089370973671"
 aws_region = "eu-central-1"
