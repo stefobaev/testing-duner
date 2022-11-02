@@ -1,9 +1,10 @@
 TAG ?= latest
 REGISTRY_ID ?= 089370973671
 REPOSITORY_REGION ?= eu-central-1
-APP_NAME ?= firstDemo
+APP_NAME ?= kebap
 ENV_NAME ?= project
-REPO_NAME = $(REGISTRY_ID).dkr.ecr.$(REPOSITORY_REGION).amazonaws.com/${APP_NAME}-${ENV_NAME}
+REPO_NAME ?= 089370973671.dkr.ecr.eu-central-1.amazonaws.com/awsecr10860019576
+
 
 .PHONY: build
 build:
