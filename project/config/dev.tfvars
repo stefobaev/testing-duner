@@ -4,6 +4,6 @@ aws_profile = "default"
 aws_account = "089370973671"
 aws_region = "eu-central-1"
 image_tag = "0.0.1"
-repo_url = "https://github.com/stefobaev/firstDemo.git"
+repo_url = "https://github.com/stefobaev/duner.git"
 git_trigger_event = "PUSH"
 app_count = 3
