@@ -1,0 +1,3 @@
+variable "vpcId" {}
+
+variable "publicSubnet" {}
